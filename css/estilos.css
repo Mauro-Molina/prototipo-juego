@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    *background: #000;
+}
+
+.principal{
+    width: 70vw;
+    height: 100vh;
+    background-image: url("../images/gameboy.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+canvas{
+    background-color: pink;
+    position: absolute;
+    top: 215px;
+    left: 265px;
+}
+
+.start{
+    width: 26px;
+    height: 26px;
+    background: red;
+    position: absolute;
+    top: 449px;
+    left: 194px;
+    border-radius: 50%;
+}
+
+/*------inicio.html-------*/
+
+
+.fondo{
+    width: 100vw;
+    height: 100vh;
+    background: url("../images/fondo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fondo a{
+    padding: 25px;
+    border: 2px solid rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-decoration: none;
+    font-size: 40px;
+    border-radius: 25px;
+}
+
+.fondo a:hover{
+    background: rgba(0, 0, 0, 0.5);
+}
